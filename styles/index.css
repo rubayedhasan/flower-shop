@@ -17,3 +17,54 @@ li {
 body {
   font-family: "Lato", sans-serif;
 }
+
+.container {
+  width: 75%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.description {
+  color: #2727278c;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+.primery-btn {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 43px;
+  border: none;
+  border-radius: 8px;
+  background-color: #e55473;
+  cursor: pointer;
+}
+
+/* header section styles  */
+header {
+  background-color: #fceef1;
+}
+
+/* banner section styles  */
+header #banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  gap: 97px;
+}
+
+#banner .banner-content-container {
+  max-width: 530px;
+}
+#banner .banner-content-container * {
+  margin-bottom: 32px;
+}
+#banner .banner-content-container .banner-title {
+  font-size: 60px;
+  font-weight: 800;
+}
+#banner .banner-image img {
+  width: 100%;
+  vertical-align: middle;
+}
