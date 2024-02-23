@@ -193,3 +193,13 @@ header #banner {
 #social-publication .section-heading .description {
   text-align: center;
 }
+#social-publication .flower-collection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+#social-publication .flower-collection .photo img {
+  width: 100%;
+}
