@@ -41,7 +41,7 @@ body {
   cursor: pointer;
 }
 .section-heading {
-  max-width: 445.5px;
+  max-width: 500px;
   margin: 0 auto;
 }
 .section-heading * {
@@ -52,6 +52,9 @@ body {
   font-size: 30px;
   font-weight: 800;
   text-align: center;
+}
+.highLighted-text {
+  color: #e55473;
 }
 
 /* header section styles  */
@@ -179,9 +182,6 @@ header #banner {
   font-size: 40px;
   margin-bottom: 24px;
 }
-.hot-deal-container .about-our-hot-deal .section-title span {
-  color: #e55473;
-}
 .hot-deal-container .about-our-hot-deal .description {
   margin-bottom: 32px;
 }
@@ -236,6 +236,25 @@ header #banner {
 }
 #newsletter form input::placeholder {
   color: #2727278f;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* footer section styles  */
+footer {
+  margin-top: 120px;
+  padding: 128px 0;
+  background-color: #111010;
+  text-align: center;
+}
+
+footer .section-heading .section-title,
+footer .section-heading .description,
+footer .copy-write-text {
+  color: #fff;
+}
+footer .copy-write-text {
+  color: #ffffff54;
   font-size: 16px;
   font-weight: 400;
 }
