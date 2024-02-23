@@ -125,3 +125,32 @@ header #banner {
   text-align: center;
   text-decoration: underline;
 }
+
+/* special-feature section styles  */
+#special-feature {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 100px;
+  margin-top: 120px;
+  background-color: #f4f4f4;
+  padding: 85px 130px;
+  border-radius: 10px;
+}
+#special-feature .special-feature-card {
+  max-width: 280px;
+}
+#special-feature .special-feature-card .card-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#special-feature .special-feature-card .card-image img {
+  width: 66px;
+  height: 66px;
+}
+#special-feature .special-feature-card .card-title {
+  color: #27272798;
+  font-weight: 600;
+  margin-top: 24px;
+}
