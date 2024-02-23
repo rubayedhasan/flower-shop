@@ -39,6 +39,19 @@ body {
   background-color: #e55473;
   cursor: pointer;
 }
+.section-heading {
+  max-width: 445.5px;
+  margin: 0 auto;
+}
+.section-heading * {
+  margin-bottom: 24px;
+}
+.section-title {
+  color: #272727;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+}
 
 /* header section styles  */
 header {
@@ -67,4 +80,48 @@ header #banner {
 #banner .banner-image img {
   width: 100%;
   vertical-align: middle;
+}
+
+/* feature section styles*/
+#feature {
+  margin-top: 178px;
+}
+
+#feature .section-heading .description {
+  text-align: center;
+  margin-bottom: 48px;
+}
+#feature .feature-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 24px;
+}
+.feature-card .flower-card .flower-image {
+  height: 404px;
+  padding: 30px 45px 0;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  border-radius: 300px 300px 0 0;
+}
+.bg-lightPink {
+  background-color: #f2dee7;
+}
+.bg-lightBlue {
+  background-color: #d9eff1;
+}
+.bg-lightGreen {
+  background-color: #e3ebdb;
+}
+.feature-card .flower-card .flower-image img {
+  width: 100%;
+}
+.feature-card .flower-card .card-title {
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 24px;
+  text-align: center;
+  text-decoration: underline;
 }
