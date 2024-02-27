@@ -258,3 +258,28 @@ footer .copy-write-text {
   font-size: 16px;
   font-weight: 400;
 }
+
+/* responsive styles  */
+/* responsive styles for extra extra large devices */
+@media screen and (min-width: 1201px) {
+}
+
+/* responsive styles for extra large devices */
+@media screen and (min-width: 993px) and (max-width: 1200.98px) {
+}
+
+/* responsive styles for large devices */
+@media screen and (min-width: 769px) and (max-width: 992.98px) {
+}
+
+/* responsive styles for medium  devices  */
+@media screen and (min-width: 577px) and (max-width: 768.98px) {
+}
+
+/* responsive styles for small devices  */
+@media screen and (max-width: 576.98px) {
+}
+
+/* responsive styles for extra small devices  */
+@media screen and (max-width: 575.98px) {
+}
