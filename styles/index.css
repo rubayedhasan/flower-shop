@@ -304,6 +304,30 @@ footer .copy-write-text {
   #banner .banner-content-container * {
     margin-bottom: 25px;
   }
+  /* feature section styles*/
+  #feature {
+    margin-top: 120px;
+  }
+
+  #feature .section-heading .description {
+    margin-bottom: 48px;
+  }
+  #feature .feature-card {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .feature-card .flower-card {
+    margin-bottom: 25px;
+  }
+  .feature-card .flower-card .flower-image {
+    height: 360px;
+    padding: 0;
+    border-radius: 200px 200px 0 0;
+  }
+  .feature-card .flower-card .flower-image img {
+    width: 65%;
+  }
 }
 
 /* responsive styles for extra small devices  */
