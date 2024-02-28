@@ -307,6 +307,14 @@ footer .copy-write-text {
   .feature-card .flower-card .card-title {
     font-size: 16px;
   }
+
+  /* special-feature section styles  */
+  #special-feature {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 85px 130px;
+  }
 }
 
 /* responsive styles for small devices  */
