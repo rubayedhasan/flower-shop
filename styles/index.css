@@ -275,6 +275,38 @@ footer .copy-write-text {
 
 /* responsive styles for medium  devices  */
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* header section styles  */
+  header {
+    background-color: #fceef1;
+  }
+
+  /* banner section styles  */
+  header #banner {
+    flex-direction: column;
+    gap: 70px;
+  }
+  #banner .banner-content-container {
+    text-align: right;
+  }
+  #banner .banner-content-container .description {
+    text-align: right;
+  }
+
+  /* feature section styles*/
+  #feature .feature-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 24px;
+  }
+  .feature-card .flower-card .flower-image {
+    height: 180px;
+    margin-top: 16px;
+    padding: 30px 35px 0;
+  }
+  .feature-card .flower-card .card-title {
+    font-size: 16px;
+  }
 }
 
 /* responsive styles for small devices  */
@@ -395,7 +427,7 @@ footer .copy-write-text {
     border-radius: 200px 200px 0 0;
   }
   .feature-card .flower-card .flower-image img {
-    width: 65%;
+    width: 80%;
   }
   /* special-feature section styles  */
   #special-feature {
