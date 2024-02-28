@@ -263,12 +263,37 @@ footer .copy-write-text {
 /* responsive styles  */
 /* responsive styles for extra extra large devices */
 @media screen and (min-width: 1400px) {
+  #special-feature {
+    padding: 85px;
+  }
 }
 
 /* responsive styles for extra large devices */
 @media screen and (min-width: 1200px) and (max-width: 1399.98px) {
-}
+  /* header section styles  */
+  header #banner {
+    align-items: end;
+  }
 
+  #banner .banner-content-container {
+    max-width: 500px;
+  }
+  #banner .banner-content-container .banner-title {
+    font-size: 50px;
+  }
+
+  .feature-card .flower-card .flower-image {
+    height: 300px;
+  }
+  #special-feature {
+    padding: 85px;
+  }
+}
+@media screen and (min-width: 1300px) and (max-width: 1399.98px) {
+  .feature-card .flower-card .flower-image {
+    height: 350px;
+  }
+}
 /* responsive styles for large devices */
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
   .container {
