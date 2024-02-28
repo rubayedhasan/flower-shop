@@ -271,6 +271,52 @@ footer .copy-write-text {
 
 /* responsive styles for large devices */
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .container {
+    max-width: 960px;
+  }
+  .primary-btn {
+    font-size: 18px;
+    padding: 18px 25px;
+  }
+
+  /* header section styles  */
+  header #banner {
+    align-items: end;
+    gap: 50px;
+  }
+  #banner .banner-content-container {
+    max-width: 460px;
+  }
+  #banner .banner-content-container .banner-title {
+    font-size: 50px;
+  }
+  .feature-card .flower-card .flower-image {
+    height: 260px;
+  }
+
+  #special-feature {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hot-deal-container .about-our-hot-deal .section-title {
+    font-size: 35px;
+  }
+
+  .hot-deal-container .about-our-hot-deal {
+    max-width: 470px;
+  }
+
+  #newsletter {
+    padding: 120px 20px;
+  }
+}
+
+@media screen and (min-width: 1121px) and (max-width: 1199.98px) {
+  .feature-card .flower-card .flower-image {
+    height: 280px;
+  }
 }
 
 /* responsive styles for medium  devices  */
@@ -334,8 +380,22 @@ footer .copy-write-text {
     border-radius: 10px;
   }
   /* newsletter section styles  */
+  #newsletter {
+    padding: 100px 30px;
+  }
   #newsletter form {
-    max-width: 650px;
+    flex-direction: column;
+    max-width: 700px;
+  }
+}
+@media screen and (min-width: 830px) and (max-width: 880.98px) {
+  .feature-card .flower-card .flower-image {
+    height: 200px;
+  }
+}
+@media screen and (min-width: 881px) and (max-width: 991.98px) {
+  .feature-card .flower-card .flower-image {
+    height: 240px;
   }
 }
 
