@@ -315,6 +315,28 @@ footer .copy-write-text {
     align-items: center;
     padding: 85px 130px;
   }
+
+  /* hot-deal section styles  */
+  #hot-deal {
+    padding: 100px 0 0;
+  }
+  #hot-deal .hot-deal-container {
+    flex-direction: column;
+    gap: 80px;
+  }
+
+  /* social-publication section styles  */
+  #social-publication .flower-collection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #social-publication .flower-collection .photo img {
+    border-radius: 10px;
+  }
+  /* newsletter section styles  */
+  #newsletter form {
+    max-width: 650px;
+  }
 }
 
 /* responsive styles for small devices  */
